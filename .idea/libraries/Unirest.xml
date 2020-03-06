@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Unirest">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Desktop/Arquivos/Java APIs/Unirest" />
+      <root url="jar://$USER_HOME$/Desktop/Arquivos/Java APIs/fontawesomefx-8.9.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Arquivos/Java APIs/jsoup-1.12.1.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/Arquivos/Java APIs/AnimateFX" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/Arquivos/Java APIs/AnimateFX" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Desktop/Arquivos/Java APIs/AnimateFX" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Desktop/Arquivos/Java APIs/Unirest" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Desktop/Arquivos/Java APIs/AnimateFX" recursive="false" type="SOURCES" />
+  </library>
+</component>

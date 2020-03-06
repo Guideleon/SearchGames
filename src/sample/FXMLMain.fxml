@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="fundo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="611.0" prefWidth="905.0" style="-fx-background-color: #151515;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <top>
+      <HBox alignment="CENTER" prefHeight="92.0" prefWidth="905.0" spacing="10.0" style="-fx-background-color: #202020;" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </padding>
+         <children>
+            <FontAwesomeIconView fill="#eee8e8" glyphName="SEARCH" size="24" />
+            <TextField fx:id="txtPesquisa" disable="true" onAction="#onEnter" prefHeight="37.0" prefWidth="789.0" promptText="Pesquise" style="-fx-background-radius: 15; -fx-background-color: #3B3B3B; -fx-border-radius: 15;" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font></TextField>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </HBox>
+   </top>
+   <center>
+      <StackPane fx:id="stackPane" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #151515;" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <HBox alignment="CENTER_LEFT" prefHeight="41.0" prefWidth="905.0" spacing="10.0" style="-fx-background-color: #202020;">
+         <children>
+            <FontAwesomeIconView fx:id="voltarPagina" fill="#eee8e8" glyphName="ARROW_LEFT" onDragDetected="#voltarPagina" onMouseClicked="#voltarPagina" size="34" stroke="BLACK">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></FontAwesomeIconView>
+            <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+            <FontAwesomeIconView fx:id="passarPagina" fill="#eee8e8" glyphName="ARROW_RIGHT" onMouseClicked="#passarPagina" size="34">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></FontAwesomeIconView>
+         </children>
+         <padding>
+            <Insets bottom="15.0" left="40.0" right="40.0" top="15.0" />
+         </padding>
+      </HBox>
+   </bottom>
+</BorderPane>
