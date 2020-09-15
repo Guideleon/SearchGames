@@ -2,7 +2,7 @@
 
 ## Projeto descontinuado!!
 
-Pesquise e conheça novos jogos. Programa desenvolvido por gabrielguidelisenarios@gmail.com
+Pesquise e conheça novos jogos.
 
 A aplicação faz acesso a uma API de Banco de Dados que contém milhares de dados de Jogos.
 
